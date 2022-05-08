@@ -1,6 +1,11 @@
 # 5_DOF_Arm
 Control and simulation code for a 5 degree of freedom robotic arm.
 
+# Arduino Prototype
+* 3 servo motors for planar joints
+* 1 continous servo to simulate base rotation
+<img src="https://user-images.githubusercontent.com/15254803/167279164-ddecfc67-f772-4ac4-95c0-79078480c0e9.gif" height="400" />
+
 ## 2D Python Simulation
 Simulation created using pygame to simulate the 2d Inverse Kinematics (IK) and Forward Kinematics (FK) of the three joints (pivots), with fixed link lengths matching the actual link lengths.
 The angle of the end effector (measured CCW from horizontal) can be calculated automatically in General IK mode, or set to a fixed angle in the Fixed Angle IK mode, and the arm becomes greyed out when the mouse is placed in an unreachable position in the current configuration.
