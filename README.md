@@ -2,8 +2,10 @@
 Control and simulation code for a 5 degree of freedom robotic arm.
 
 # Arduino Prototype
-* 3 servo motors for planar joints
-* 1 continous servo to simulate base rotation
+* 4 servos controlled with PCA9685 servo expander capable of speed adjustments
+* Three 180° servo motors for planar joints
+* One continous servo with optical rotary disk encoder to simulate base rotation
+* Real-time motor control using IMU
 <img src="https://user-images.githubusercontent.com/15254803/167279164-ddecfc67-f772-4ac4-95c0-79078480c0e9.gif" height="400" />
 
 ## 2D Python Simulation
