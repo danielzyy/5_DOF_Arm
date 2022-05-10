@@ -1,7 +1,7 @@
 # 5_DOF_Arm
 Control and simulation code for a 5 degree of freedom robotic arm.
 
-# Arduino Prototype
+## Arduino Prototype
 * 4 servos controlled with PCA9685 servo expander capable of speed adjustments
 * Three 180° servo motors for planar joints
 * One continous servo with optical rotary disk encoder to simulate base rotation
